@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #f6f4f4;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f6f6;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        /* Estilos específicos */
+        .gallery img {
+            margin: 10px;
+            max-width: 300px;
+            height: auto;
+        }
+
+        /* Estilos para la información de contacto */
+
+        .contact-info p {
+            margin-bottom: 5px;
+        }
+
+        .contact-info i {
+            margin-right: 5px;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Bienvenido a Mi Galeria de Arte</h1>
+</header>
+<nav>
+    <a href="index.html">inicio</a>    |
+    <a href="galeria.html">Galeria</a>      |
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<h2>Contacto</h2>
+<p>Complete la informacion.</p>
+<form action="  enviable_formulario.php" method="post">
+    <div>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+    </div>
+    <p>
+    <div>
+        <label for="telefono">Teléfono:</label>
+        <input type="text" id="telefono" name="telefono" required>
+    </div>
+    </p>
+
+    <div>
+        <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </p>
+    </div>
+
+<div>
+    <p>
+        <label for="tipo_solicitud">Tipo de Solicitud:</label>
+        <select id="tipo_solicitud" name="tipo_solicitud">
+            <option value="compra">Compra</option>
+            <option value="consulta">Consulta</option>
+            <option value="venta">Venta</option>
+        </select>
+    </p>
+
+</div>
+
+    <div>
+        <p>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <input type="submit" value="Enviar">
+        </p>
+
+    </div>
+
+        </form>
+
+    </section>
+</section>
+
+</form>
+<section>
+
+    <div class="contact-info">
+    <p><i class="fas fa-map-marker-alt"></i> Dirección: Geronimo de Alderete #3544</p>
+    <p><i class="fas fa-phone"></i> Teléfono: +56933322944</p>
+    <p></p><a href="https://wa.me/56933322944" target="_blank"><i class="fab fa-whatsapp whatsapp-icon"></i> Contáctanos en WhatsApp</a>
+    </div>
+</section>
+
+
+<footer>
+    <p>Derechos de autor &copy; 2024 | Mi Página Web</p>
+</footer>
+
+</body>
+
+</html>
