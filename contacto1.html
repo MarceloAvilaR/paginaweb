@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Web</title>
+    <style>
+        /* Estilos básicos */
+        body {
+            font-family: Arial, sans-serif;
+            margin:5px;
+            padding:5px;
+        }
+        header {
+            background-color: #333;
+            color: #f6f4f4;
+            padding: 10px;
+            text-align: center;
+        }
+        nav {
+            background-color: #f8f6f6;
+            color: #0b0303;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding:20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width:97%;
+            bottom:5px;
+        }
+        /* Estilos específicos */
+        .gallery img {
+            margin:50px;
+            max-width: 300px;
+            height: auto;
+        }
+
+        /* Estilos para la información de contacto */
+
+        .contact-info p {
+            margin-bottom:10px;
+        }
+
+        .contact-info i {
+            margin-right:0;
+        }
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Contáctanos</h1>
+</header>
+<nav>
+    <a href="index.html">inicio</a>    |
+    <a href="galeria.html">Galeria</a>      |
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<div class="container">
+    <h1>Contáctanos</h1>
+    <form>
+        <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre">
+        </div>
+        <div class="form-group">
+            <p>
+                <label for="email">Emai:</label>
+                <input type="email" class= "form-control" id="email">
+            </p>
+
+           <p>
+               <label for="mensaje">Mensaje:</label>
+           </p>
+<p>
+    <textarea class="form-control" id="mensaje" rows="5"></textarea>
+</p>
+        </div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+</div>
+
+
+<h2>
+  Visitanos!
+</h2>
+    <div class="contact-info">
+    <p><i class="fas fa-map-marker-alt"></i> Dirección: Geronimo de Alderete #3544</p>
+    <p><i class="fas fa-phone"></i> Teléfono: +56933322944</p>
+    </div>
+
+<footer>
+    <p>Derechos de autor &copy; 2024 | Mi Página Web</p>
+</footer>
+</body>
+</html>
